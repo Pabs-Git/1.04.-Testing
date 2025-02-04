@@ -1,12 +1,14 @@
-package E1Test.ClassesTest;
+package E1.Classes;
 
 public class Book implements Comparable<Book> {
 
     private String title;
 
     public Book(String title) {
+
         this.title = title;
     }
+
     public String getTitle() {
 
         return title;
@@ -14,8 +16,10 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book other) {
+
         return this.title.compareTo(other.title);
     }
+
     @Override
     public String toString() {
         return "Book{" +

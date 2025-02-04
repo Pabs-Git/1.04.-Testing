@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Ejercicio_1/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/Ejercicio_2/main" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Ejercicio_2/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Ejercicio_3/Main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Ejercicio_3/Test" isTestSource="true" />
     </content>
   </component>
 </module>

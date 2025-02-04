@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        char res = DniCalculation.calculateLetter(25626561);
+        char result = DniCalculation.calculateLetter(25626561);
 
         System.out.println("Pequeña prueba.");
-        System.out.println("La letra del DNI escrito es: " + res);
+        System.out.println("La letra del DNI escrito es: " + result);
 
     }
 }

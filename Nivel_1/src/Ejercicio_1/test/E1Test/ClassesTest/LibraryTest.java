@@ -1,6 +1,6 @@
-package java.E1Test.ClassesTest;
+package E1Test.ClassesTest;
 
-import E1Test.ClassesTest.Library;
+import E1.Classes.Library;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

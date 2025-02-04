@@ -1,4 +1,4 @@
-package E1Test.ClassesTest;
+package E1.Classes;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,31 +17,35 @@ public class Library {
         boolean found = false;
         int i = 0;
 
-            while (!found && i < bookCollection.size()) {
+        while (!found && i < bookCollection.size()) {
 
-                if (title.equals(bookCollection.get(i).getTitle())) {
-                    found = true;
-                }
-                i++;
+            if (title.equals(bookCollection.get(i).getTitle())) {
+                found = true;
             }
-            if (!found) {
-                bookCollection.add(new Book(title));
-                sortBooksAlphabetically();
-            }
+            i++;
         }
+        if (!found) {
+            bookCollection.add(new Book(title));
+            sortBooksAlphabetically();
+        }
+    }
 
     public List<Book> getBookCollection() {
+
         return bookCollection;
     }
+
     public String getBook(int index) {
-       return bookCollection.get(index).getTitle();
+
+        return bookCollection.get(index).getTitle();
     }
+
     public void addBookToIndex(int index, String title) {
 
         boolean found = false;
         int i = 0;
 
-        while (!found && i<bookCollection.size()) {
+        while (!found && i < bookCollection.size()) {
 
             if (title.equals(bookCollection.get(i).getTitle())) {
                 found = true;
@@ -59,7 +63,7 @@ public class Library {
         boolean found = false;
         int i = 0;
 
-        while (!found && i<bookCollection.size()) {
+        while (!found && i < bookCollection.size()) {
 
             if (title.equals(bookCollection.get(i).getTitle())) {
                 found = true;
@@ -74,6 +78,7 @@ public class Library {
     }
 
     public void sortBooksAlphabetically() {
+
         bookCollection.sort(null);
     }
 

@@ -1,4 +1,4 @@
-package E1Test.ClassesTest;
+package E2Test.ClassesTest;
 
 import E2.Classes.DniCalculation;
 
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class calculateDniTest {
+public class CalculateDniTest {
 
     @ParameterizedTest
     @CsvSource({
