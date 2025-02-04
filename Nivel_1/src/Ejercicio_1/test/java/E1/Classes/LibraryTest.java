@@ -1,5 +1,6 @@
-package com.pabloorbea.Classes;
+package E1.Classes;
 
+import E1.Classes.Library;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -34,8 +35,8 @@ public class LibraryTest {
         library.addBook("Don Quijote");
 
         assertEquals("1984", library.getBook(0), "The book at index 0 is not the one expected");
-        assertEquals("El Principito", library.getBook(1), "The book at index 1 is not the one expected");
-        assertEquals("Don Quijote", library.getBook(2), "The book at index 2 is not the one expected");
+        assertEquals("Don Quijote", library.getBook(1), "The book at index 1 is not the one expected");
+        assertEquals("El Principito", library.getBook(2), "The book at index 2 is not the one expected");
     }
 
     @Test
@@ -65,8 +66,10 @@ public class LibraryTest {
         Library library = new Library();
 
         library.addBook("1984");
+        library.addBook("El Principito");
+        library.addBook("Don Quijote");
 
-        assertEquals("1984", library.getBook(0), "The book at index 0 is not the one expected");
+        assertEquals("Don Quijote", library.getBook(1), "The book at index 0 is not the one expected");
     }
 
     @Test
@@ -89,8 +92,8 @@ public class LibraryTest {
         library.addBook("ABC");
 
 
-        assertEquals("ABC", library.getBook(0), "The library size is not the expected one after adding books");
-        assertEquals("El Principito", library.getBook(1), "The library size is not the expected one after adding books");
+        assertEquals("ABC", library.getBook(0), "The library is not ordered correctly");
+        assertEquals("El Principito", library.getBook(1), "The library is not ordered correctly");
     }
 }
 
