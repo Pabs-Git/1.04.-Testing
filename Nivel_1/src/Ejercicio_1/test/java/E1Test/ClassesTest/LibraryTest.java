@@ -1,8 +1,7 @@
-package E1.Classes;
+package java.E1Test.ClassesTest;
 
-import E1.Classes.Library;
+import E1Test.ClassesTest.Library;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class LibraryTest {

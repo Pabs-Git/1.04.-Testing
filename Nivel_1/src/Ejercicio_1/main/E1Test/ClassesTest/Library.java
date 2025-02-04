@@ -1,4 +1,4 @@
-package E1.Classes;
+package E1Test.ClassesTest;
 
 import java.util.ArrayList;
 import java.util.List;

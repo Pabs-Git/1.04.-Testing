@@ -1,4 +1,4 @@
-package E1.Classes;
+package E1Test.ClassesTest;
 
 public class Book implements Comparable<Book> {
 

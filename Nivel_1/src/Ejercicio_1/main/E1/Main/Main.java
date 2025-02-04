@@ -1,6 +1,6 @@
 package E1.Main;
 
-import E1.Classes.Library;
+import E1Test.ClassesTest.Library;
 
 public class Main {
     public static void main(String[] args) {
