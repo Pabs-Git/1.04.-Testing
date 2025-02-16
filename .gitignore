@@ -1,5 +1,6 @@
 # Ignorar todo por defecto
 /*
+Nivel_1/**
 
 # No ignorar la carpeta Nivel_1 y su contenido
 !Nivel_1/
