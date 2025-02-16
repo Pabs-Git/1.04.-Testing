@@ -1,7 +1,3 @@
-# Ignorar todo por defecto
-/*
-Nivel_1/**
-
 # No ignorar la carpeta Nivel_1 y su contenido
 !Nivel_1/
 !Nivel_1/src/
@@ -9,3 +5,5 @@ Nivel_1/**
 # No ignorar archivos específicos
 !.gitignore
 !README.txt
+
+Nivel_1/*
