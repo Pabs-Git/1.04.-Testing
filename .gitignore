@@ -8,5 +8,6 @@
 !Nivel_1/src/
 !Nivel_1/src/**
 
-# Seguir ignorando todo lo demás dentro de Nivel_1
+# Ignorar todo lo demás dentro de Nivel_1, excepto src
 Nivel_1/*
+!Nivel_1/src/
